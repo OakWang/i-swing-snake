@@ -1,0 +1,7 @@
+<i-swing>
+    <i-frame width="800" height="810" title="贪吃蛇">
+        <i-panel id="panel">
+            <i-label id="snake" width="25" height="25"  left="400" top="400" background="7FFFAA"/>
+        </i-panel>
+    </i-frame>
+</i-swing>
