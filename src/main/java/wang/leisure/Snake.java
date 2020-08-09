@@ -157,10 +157,7 @@ public class Snake extends IKeyListener {
     private boolean closeToWall() {
         Container head = this.snake.peek();
         assert head != null;
-        if (head.getX() == 0 || head.getY() == 0 || head.getX() == 775 || head.getY() == 775) {
-            return true;
-        }
-        return false;
+        return head.getX() == 0 || head.getY() == 0 || head.getX() == 775 || head.getY() == 775;
     }
 
     /**
